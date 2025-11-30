@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nápady proti nude / Boredom Ideas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="theme-toggle" id="themeToggle">
+        <span class="material-symbols-outlined">dark_mode</span>
+    </div>
+
+    <div class="container">
+        <h1 id="hlavicka">✨ Čo robiť, keď sa nudíš?</h1>
+
+        <div class="input-section">
+            <label for="kategoria" id="labelKategoria">Vyber si kategóriu:</label>
+            <div class="select-wrapper">
+                <span class="material-symbols-outlined icon">category</span>
+                <select id="kategoria">
+                    <option value="jedno">Úplne jedno</option>
+                    <option value="zadarmo">Zadarmo</option>
+                    <option value="peniaze">Za peniaze</option>
+                    <option value="indoor">Indoor (vnútri)</option>
+                    <option value="outdoor">Outdoor (vonku)</option>
+                    <option value="sam">Pre jedného</option>
+                    <option value="kamarati">S kamarátmi</option>
+                    <option value="odvazni">Pre odvážnych 🔥</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="btn">🎲 Ukáž mi nápad</button>
+        <p id="napad" class="hidden"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
